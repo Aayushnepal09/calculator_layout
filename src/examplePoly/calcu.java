@@ -1,7 +1,7 @@
 package examplePoly;
 
 import java.awt.Color;
-import java.awt.Dimension;
+
 import java.awt.GridLayout;
 
 
@@ -23,7 +23,7 @@ public class calcu {
 
 
     public calcu() {
-        frame=new JFrame("calculator");
+        frame=new JFrame();
         frame.getContentPane().setBackground( Color.DARK_GRAY );
         panel=new JPanel();
         GridLayout layout = new GridLayout(5,3);
